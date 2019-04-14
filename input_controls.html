@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+      <link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+      <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+   </head>
+
+   <body>
+      <div data-role = "page" id = "page1">
+         <div data-role = "header">
+            <h2>Header</h2>
+         </div>
+         
+         <div data-role = "main" class = "ui-content">
+            <p>List:</p>
+            <ol data-role = "listview" data-inset = "true" data-theme = "b">
+               <li data-theme = "a"><a href = "#">India</a></li>
+               <li data-theme = "b"><a href = "#">Srilanka</a></li>
+               <li data-theme = "a"><a href = "#">Australia</a></li>
+               <li data-theme = "b"><a href = "#">England</a></li>
+            </ol>
+            
+            <br>
+            <p>Collapsible List:</p>
+            <div data-role = "collapsible" data-theme = "a" data-content-theme = "b">
+               <h2>Collapsible List</h2>
+               <ul data-role = "listview">
+                  <li><a href = "#">India</a></li>
+                  <li><a href = "#">Srilanka</a></li>
+                  <li><a href = "#">Australia</a></li>
+               </ul>
+            </div>
+         </div>
+   
+         <div data-role = "footer">
+            <h2>Footer</h2>
+         </div>
+      </div>
+      
+   </body>
+</html>
